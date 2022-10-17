@@ -7,7 +7,7 @@ var data = require("./quotes.json");
 const getRandomIndex = (length) => Math.floor(Math.random() * length+1);
 
 let count=0;
-console.log('\x1b[36m%s\x1b[0m', `Welcome in Hsn script !`);
+console.log('\x1b[36m%s\x1b[0m', `Welcome in Hsn script ! 😁`);
 
 cron.schedule("*/30 * * * *", () => {
 
